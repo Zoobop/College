@@ -1,2 +1,2 @@
-# The-Deadlands
-The project files for my game, The Deadlands.
+# Shool-Projects
+The project files that I have worked on in school.
