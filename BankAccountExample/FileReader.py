@@ -4,7 +4,7 @@
 
 def firstNameFromFile():
     # Get data from file
-    file = open("FirstNames.txt", "r", )
+    file = open("FirstNames.txt", "r")
     
     # Parse data into list
     names = []
