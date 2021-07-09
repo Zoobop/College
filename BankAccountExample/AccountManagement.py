@@ -22,7 +22,7 @@ def retrieveAccountListing():
     return
 
 
-# Returns a number as a string formatted by the number of accounts in listing
+# Returns a number as a string formatted by the number of accounts in listing (i.e #009 if the number of accounts is 3 digits long)
 def formatAccountIndex(index):
 
     # Get number of characters in list
