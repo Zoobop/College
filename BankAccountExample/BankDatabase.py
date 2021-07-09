@@ -32,6 +32,7 @@ class BankAccount:
             print("Error in withdrawl: Exceeds current funds amount of ${:.2f}".format(self.money))
             return None
         else:
+            self.money -= amount
             print("Recieving ${:.2f}".format(amount))
             return amount
 
