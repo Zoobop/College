@@ -1,0 +1,15 @@
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\bin\Debug\net6.0\CMPS340_Assignment2.exe
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\bin\Debug\net6.0\CMPS340_Assignment2.deps.json
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\bin\Debug\net6.0\CMPS340_Assignment2.runtimeconfig.json
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\bin\Debug\net6.0\CMPS340_Assignment2.dll
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\bin\Debug\net6.0\ref\CMPS340_Assignment2.dll
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\bin\Debug\net6.0\CMPS340_Assignment2.pdb
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.csproj.AssemblyReference.cache
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.AssemblyInfoInputs.cache
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.AssemblyInfo.cs
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.dll
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\ref\CMPS340_Assignment2.dll
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.pdb
+C:\Users\Brandon\OneDrive\Desktop\CMPS Courses\CMPS340\Assignment 2\CMPS340_Assignment2\CMPS340_Assignment2\obj\Debug\net6.0\CMPS340_Assignment2.genruntimeconfig.cache
