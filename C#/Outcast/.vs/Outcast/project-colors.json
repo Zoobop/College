@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eeaa7020-9b78-4ff9-8806-940a369bc78e": {
+      "ProjectGuid": "eeaa7020-9b78-4ff9-8806-940a369bc78e",
+      "DisplayName": "Outcast",
+      "ColorIndex": 0
+    },
+    "bfe3ac3a-0edc-4f78-88ca-a1c88dce7f3a": {
+      "ProjectGuid": "bfe3ac3a-0edc-4f78-88ca-a1c88dce7f3a",
+      "DisplayName": "Engine",
+      "ColorIndex": 1
+    },
+    "442a86c1-7573-4875-9171-2976af6e25a2": {
+      "ProjectGuid": "442a86c1-7573-4875-9171-2976af6e25a2",
+      "DisplayName": "TKCore",
+      "ColorIndex": 2
+    },
+    "3dd6ec19-e703-44a4-a5f8-bea4111b624e": {
+      "ProjectGuid": "3dd6ec19-e703-44a4-a5f8-bea4111b624e",
+      "DisplayName": "TKCore",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

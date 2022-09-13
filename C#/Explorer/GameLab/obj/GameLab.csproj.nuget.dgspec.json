@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\GameLab\\GameLab.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\Explorer\\Explorer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\Explorer\\Explorer.csproj",
+        "projectName": "Explorer",
+        "projectPath": "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\Explorer\\Explorer.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\GameLab\\GameLab.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\GameLab\\GameLab.csproj",
+        "projectName": "GameLab",
+        "projectPath": "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\GameLab\\GameLab.csproj",
+        "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\GameLab\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Brandon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\Explorer\\Explorer.csproj": {
+                "projectPath": "C:\\Users\\Brandon\\OneDrive\\Desktop\\Code\\C#\\Explorer\\Explorer\\Explorer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

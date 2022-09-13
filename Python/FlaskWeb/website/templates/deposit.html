@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block title %}Deposit{% endblock %} {% block content %}
+<h1 align="center">Deposit</h1>
+<h6 align="center">Total Funds: {{ '${:.2f}'.format(user.account.funds) }}</h6>
+<br />
+<div align="center">
+  <form method="POST">
+    <button type="submit" class="btn btn-primary">Back</button>
+  </form>
+</div>
+{% endblock %}

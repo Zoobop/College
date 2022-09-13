@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content %}
+<h1 align="center">Account</h1>
+<ul class="list-group list-group-flush" id="account">
+  <br />
+</ul>
+<div align="center">
+  <form method="POST">
+    <a class="btn btn-primary" id="withdraw" href="/withdraw">Withdraw</a>
+    <a class="btn btn-primary" id="deposit" href="/deposit">Deposit</a>
+  </form>
+</div>
+{% endblock %}

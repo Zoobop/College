@@ -1,0 +1,10 @@
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\bin\Debug\Explorer.exe.config
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\bin\Debug\Explorer.exe
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\bin\Debug\Explorer.pdb
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\Explorer.csproj.AssemblyReference.cache
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\Explorer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\Explorer.csproj.GenerateResource.cache
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\Explorer.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\Explorer.exe
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\Explorer.pdb
+C:\Users\Brandon\OneDrive\Desktop\Code\C#\Explorer\Explorer\obj\Debug\EngineAPI.Display.resources

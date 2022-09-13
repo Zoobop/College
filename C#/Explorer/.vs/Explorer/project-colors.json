@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "552ce7d5-4bff-4266-a596-f5cbe9619a59": {
+      "ProjectGuid": "552ce7d5-4bff-4266-a596-f5cbe9619a59",
+      "DisplayName": "Explorer",
+      "ColorIndex": 0
+    },
+    "28b346b6-8f37-4261-8ad8-e3820edd7737": {
+      "ProjectGuid": "28b346b6-8f37-4261-8ad8-e3820edd7737",
+      "DisplayName": "GameLab",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
