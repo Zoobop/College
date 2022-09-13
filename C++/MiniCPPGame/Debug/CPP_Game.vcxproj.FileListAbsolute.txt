@@ -1,0 +1,2 @@
+C:\Users\Admin\source\repos\CPP_Game\Debug\CPP_Game.exe
+C:\Users\Admin\source\repos\CPP_Game\Debug\CPP_Game.pdb
