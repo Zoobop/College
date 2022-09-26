@@ -11,53 +11,65 @@ import hashlib
 
 # Retrieves the data from the file
 def get_data_from_file(path: str):
-    hash_data = { }
+    data = []
     file = open(path, 'r')
-    for hash in file.readlines():
-        hash_data.append(hash.strip())
+    for line in file.readlines():
+        data.append(line.strip())       
     file.close()
-    return hash_data
+    return data
 
+# Parses the string into username and hash data
+def parse_user_data(data: str) -> list[str]:
+    parsed_data = { }
+    for line in data:
+        list = line.split(':', 2)
+        username = list[0]
+        password_data = list[1][slice(1, len(list[1]))].split('$')
+        parsed_data[username] = password_data
+    return parsed_data
 
 # Cracks the hashes to get their original value
-def crack_hashes(hashes, passwords):
-    cracked = []
-    stats = 0
-    for hash in hashes:
-        cracked_password = ""
+def find_matching_passwords(user_data: dict, passwords: list[str]) -> dict:
+    matched_passwords = {}
+    for username, password_data in user_data.items():
+        salt = password_data[1]
+        hash = password_data[2]
         for password in passwords:
-            password_hex = hashlib.md5(password.encode('utf-8')).hexdigest()
+            password_hex = hashlib.md5((salt + password).encode('utf-8')).hexdigest()
             # Checks the password hash against the stored hash
             if (hash == password_hex):
-                cracked_password = password
-                stats += 1
+                matched_passwords[username] = password
                 break
-        cracked.append([hash, cracked_password])
-    return cracked, stats
+    return matched_passwords
 
 
 # Displays the hash with their corresponding password
-def display_hash_cracking(info):
-    cracked_hashes = info[0]
-    stats = info[1]
-
+def display_hash_cracking(user: dict, matched_passwords: dict) -> None:
     print()
-    print("Name\t\tSalt\t\tHash\t\tCracked Password")
-    print("--------------------------------------------------------")
-    for pair in cracked_hashes:
-        print(f"{pair[0]} --> {pair[1]}")
+    print("Name     Salt    \t\t\t  Hash\t\t\t        Password")
+    print("----------------------------------------------------------------")
+    for username, password_data in user.items():
+        matched_password = matched_passwords.get(username)
+        matched_password = matched_password if matched_password != None else ""
+        print(f"{username}   {password_data[1]}   {password_data[2]}   {matched_password}")
     print()
-    print(f"Num hashes tested: {len(cracked_hashes)}")
-    print(f"Cracked passwords: {stats}")
-    print(f"Unknown passwords: {len(cracked_hashes) - stats}")
+    print(f"Num hashes tested: {len(user)}")
+    print(f"Cracked passwords: {len(matched_passwords)}")
+    print(f"Unknown passwords: {len(user) - len(matched_passwords)}")
 
 
 # Entry point
 def main():
-    file_path = input("Enter name of the hash file: ")
-    shadow_file_data = get_data_from_file(file_path)
-    passwords = get_data_from_file("rockyouDictionary.txt")
-    display_hash_cracking(crack_hashes(shadow_file_data, passwords))
+    # Get data fom files
+    shadow_file_data = get_data_from_file("ShadowFile.txt")
+    common_passwords = get_data_from_file("rockyouDictionary.txt")
+    
+    # Parse and retrieve targeted data
+    user_map = parse_user_data(shadow_file_data)
+    found_passwords = find_matching_passwords(user_map, common_passwords)
+    
+    # Display results
+    display_hash_cracking(user_map, found_passwords)
 
 
 if __name__ == '__main__':
