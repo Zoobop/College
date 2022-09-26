@@ -1,7 +1,7 @@
 # Name: Brandon Cunningham
 # ULID: C00431388
-# Course: CMPS 315 - Fall 2021
-# Assignment: pa1 - Password Cracker
+# Course: CMPS 315 - Fall 2022
+# Assignment: pa2 - Password Cracking
 #
 # Certification of Authenticity:
 # I certify that this assignment is entirely my own work
@@ -11,7 +11,7 @@ import hashlib
 
 # Retrieves the data from the file
 def get_data_from_file(path: str):
-    hash_data = []
+    hash_data = { }
     file = open(path, 'r')
     for hash in file.readlines():
         hash_data.append(hash.strip())
@@ -42,7 +42,7 @@ def display_hash_cracking(info):
     stats = info[1]
 
     print()
-    print("\t\tHash\t\tCracked Password")
+    print("Name\t\tSalt\t\tHash\t\tCracked Password")
     print("--------------------------------------------------------")
     for pair in cracked_hashes:
         print(f"{pair[0]} --> {pair[1]}")
@@ -55,9 +55,9 @@ def display_hash_cracking(info):
 # Entry point
 def main():
     file_path = input("Enter name of the hash file: ")
-    hashes = get_data_from_file(file_path)
-    passwords = get_data_from_file("rockyou_500Thousand.txt")
-    display_hash_cracking(crack_hashes(hashes, passwords))
+    shadow_file_data = get_data_from_file(file_path)
+    passwords = get_data_from_file("rockyouDictionary.txt")
+    display_hash_cracking(crack_hashes(shadow_file_data, passwords))
 
 
 if __name__ == '__main__':
