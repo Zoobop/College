@@ -2,8 +2,8 @@ import hashlib
 import hmac
 import random
 
-server_data_path = "SampleFiles/ServerData.txt"
-sim_data_path = "SampleFiles/SimData.txt"
+server_data_path = "ServerData.txt"
+sim_data_path = "SimData.txt"
 
 # FUNCTIONS
 def get_data(path: str):
@@ -62,15 +62,6 @@ def generate_results(imsi: str, key: str):
 # Main
 def main():
 
-    # Sample inputs
-    sim_imsi = list(sim_data)[0] # First ismi from SimData.txt file (index reflects line order)
-    sim_key = sim_data.get(sim_imsi) # Gets the secret key
-    
-    # Display
-    generate_results(imsi=sim_imsi, key=sim_key)
-    
-    # UNCOMMENT CODE TO VIEW A SAMPLE RUN THROUGH
-    '''
     input_count = len(sim_data)
     for i in range(input_count):
         # Sample inputs
@@ -80,7 +71,6 @@ def main():
         # Display
         print(f"Sample Run #{i+1}")
         generate_results(imsi=sim_imsi, key=sim_key)
-    '''
     
 if __name__ == '__main__':
     main()
